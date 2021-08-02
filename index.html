@@ -11,7 +11,9 @@
 			integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
 			crossorigin="anonymous"
 		/>
+		<link rel="stylesheet" href="animate.css" />
 		<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+		<script src="js/wow.min.js"></script>
 		<title>New Portfolio</title>
 	</head>
 	<body>
@@ -40,7 +42,7 @@
 		<!-- Home section start here -->
 		<section class="home" id="home">
 			<div class="max-width">
-				<div class="home-content">
+				<div class="home-content wow fadeIn" data-wow-duration="2s" data-wow-delay=".6s">
 					<div class="text-1">Hello, My Name is</div>
 					<div class="text-2">Md Shamsul</div>
 					<div class="text-3">And I'm a <span>Developer</span></div>
@@ -52,20 +54,16 @@
 		<!-- ? About Section Start -->
 		<section class="about" id="about">
 			<div class="max-width">
-				<h2 class="title">About Me</h2>
+				<h2 class="title wow bounceIn" data-wow-duration="2s" data-wow-delay=".6s">About Me</h2>
 				<div class="about-content">
 					<div class="column left">
-						<img src="images/04.jpg" alt="About" />
+						<img src="images/04.jpg" class="wow bounceInLeft" data-wow-delay=".6s" alt="About" />
 					</div>
-					<div class="column right">
-						<div class="text">
-							I'm Md Shamsul and i am a <span>Developer</span>
-						</div>
+					<div class="column right wow bounceInRight" data-wow-delay=".6s">
+						<div class="text">I'm Md Shamsul and i am a <span>Developer</span></div>
 						<p>
-							Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-							Aspernatur, distinctio laudantium eum quod ut, fugiat culpa iste
-							perferendis nulla harum aut repellendus eos delectus unde.
-							Consequuntur laborum maiores tempora sit.
+							Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur, distinctio laudantium eum quod ut, fugiat culpa iste perferendis
+							nulla harum aut repellendus eos delectus unde. Consequuntur laborum maiores tempora sit.
 						</p>
 						<a href="#">Download CV</a>
 					</div>
@@ -76,36 +74,27 @@
 		<!-- ? Service Section Start -->
 		<section class="service" id="services">
 			<div class="max-width">
-				<h2 class="title">My Services</h2>
+				<h2 class="title wow bounceIn" data-wow-delay=".6s">My Services</h2>
 				<div class="service-content">
-					<div class="card">
+					<div class="card wow fadeInLeft" data-wow-delay=".6s">
 						<div class="box">
 							<i class="fa fa-paint-brush"></i>
 							<div class="text">Web Design</div>
-							<p>
-								Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum,
-								animi!
-							</p>
+							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, animi!</p>
 						</div>
 					</div>
-					<div class="card">
+					<div class="card wow fadeInUp" data-wow-delay=".6s">
 						<div class="box">
 							<i class="fa fa-ad"></i>
 							<div class="text">Advertising</div>
-							<p>
-								Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum,
-								animi!
-							</p>
+							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, animi!</p>
 						</div>
 					</div>
-					<div class="card card-last">
+					<div class="card card-last wow fadeInRight" data-wow-delay=".6s">
 						<div class="box">
 							<i class="fa fa-code"></i>
 							<div class="text">Apps Design</div>
-							<p>
-								Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum,
-								animi!
-							</p>
+							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, animi!</p>
 						</div>
 					</div>
 				</div>
@@ -115,21 +104,18 @@
 		<!-- ? Skills Section Start Here -->
 		<section class="skills" id="skills">
 			<div class="max-width">
-				<h2 class="title">My Skills</h2>
+				<h2 class="title wow bounceIn" data-wow-delay=".6s">My Skills</h2>
 				<div class="skills-content">
-					<div class="column left">
+					<div class="column left wow slideInLeft" data-wow-delay=".6s">
 						<h2 class="text">My Creative skills & Experience</h2>
 						<p>
-							Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
-							atque a minus est. Fugiat modi sapiente magnam numquam, harum
-							repellat nesciunt odit doloribus vel, recusandae, qui nostrum.
-							Facilis, accusamus earum! Lorem, ipsum dolor sit amet consectetur
-							adipisicing elit. Eum quos, molestiae impedit qui alias facilis
-							laboriosam quis neque quisquam distinctio!
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio atque a minus est. Fugiat modi sapiente magnam numquam, harum repellat
+							nesciunt odit doloribus vel, recusandae, qui nostrum. Facilis, accusamus earum! Lorem, ipsum dolor sit amet consectetur adipisicing
+							elit. Eum quos, molestiae impedit qui alias facilis laboriosam quis neque quisquam distinctio!
 						</p>
 						<a href="#">Read More</a>
 					</div>
-					<div class="column right">
+					<div class="column right wow slideInRight" data-wow-delay=".6s">
 						<div class="bars">
 							<div class="info">
 								<span>HTML</span>
@@ -173,55 +159,50 @@
 		<!-- ? Teams section start here -->
 		<section class="teams" id="teams">
 			<div class="max-width">
-				<h2 class="title">My Teams</h2>
+				<h2 class="title wow bounceIn" data-wow-delay=".6s">My Teams</h2>
 				<div class="teams-content">
-					<div class="card">
+					<div class="card wow fadeIn" data-wow-delay=".5s">
 						<div class="box">
 							<img src="images/06.jpg" alt="" />
 							<div class="text">Someone Name</div>
-							<p>
-								Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint
-								ipsa placeat quasi
-							</p>
+							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint ipsa placeat quasi</p>
 						</div>
 					</div>
-					<div class="card">
+					<div class="card wow fadeIn" data-wow-delay=".7s">
 						<div class="box">
 							<img src="images/02.jpg" alt="" />
 							<div class="text">Someone Name</div>
 							<p>
-								Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint
-								ipsa placeat quasi quisquam itaque voluptatibus expedita
-								architecto debitis optio nihil?
+								Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint ipsa placeat quasi quisquam itaque voluptatibus expedita architecto
+								debitis optio nihil?
 							</p>
 						</div>
 					</div>
-					<div class="card">
+					<div class="card wow fadeIn" data-wow-delay=".9s">
 						<div class="box">
 							<img src="images/04.jpg" alt="" />
 							<div class="text">Someone Name</div>
 							<p>
-								Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint
-								ipsa placeat quasi quisquam itaque voluptatibus expedita
-								architecto debitis optio nihil?
+								Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint ipsa placeat quasi quisquam itaque voluptatibus expedita architecto
+								debitis optio nihil?
 							</p>
 						</div>
 					</div>
 				</div>
 			</div>
 		</section>
+		<!-- ? Tams section end -->
 
 		<!-- ? Contact Section start here -->
 		<section class="contact" id="contact">
 			<div class="max-width">
-				<h2 class="title">Contact me</h2>
+				<h2 class="title wow bounceIn" data-wow-delay=".7s">Contact me</h2>
 				<div class="contact-content">
-					<div class="column left">
+					<div class="column left wow fadeInUp" data-wow-delay=".7s">
 						<div class="text">Get in touch</div>
 						<p>
-							Lorem ipsum dolor sit amet consectetur adipisicing elit.
-							Asperiores facere odio hic non molestias? Minus ipsum delectus
-							quis incidunt suscipit?
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores facere odio hic non molestias? Minus ipsum delectus quis incidunt
+							suscipit?
 						</p>
 						<div class="icons">
 							<div class="row">
@@ -242,12 +223,12 @@
 								<i class="fa fa-envelope"></i>
 								<div class="info last">
 									<div class="head">E-mail</div>
-									<div class="sub-title">abc@gmail.com</div>
+									<div class="sub-title">shaun.nub@gmail.com</div>
 								</div>
 							</div>
 						</div>
 					</div>
-					<div class="column right">
+					<div class="column right wow fadeInDown" data-wow-delay=".7s">
 						<div class="text">Message me</div>
 						<form action="#">
 							<div class="fields">
@@ -262,14 +243,7 @@
 								<input type="text" placeholder="Subject" required />
 							</div>
 							<div class="field textarea">
-								<textarea
-									name=""
-									id=""
-									cols="30"
-									rows="10"
-									placeholder="Describe Project..."
-									required
-								></textarea>
+								<textarea name="" id="" cols="30" rows="10" placeholder="Describe Project..." required></textarea>
 							</div>
 							<div class="button">
 								<button type="button">Send Message</button>
@@ -282,11 +256,25 @@
 
 		<!-- ? Footer Section Start -->
 		<footer>
-			<span>
-				Created by <a href="#">CodingBd</a> |
-				<span class="fa fa-copyright"></span>2021 All rights reserved.
-			</span>
+			<span> Created by <a href="#">Shamsul Alam</a> | <span class="fa fa-copyright"></span>2021 All rights reserved. </span>
 		</footer>
-		<script src="script.js"></script>
+		<script src="js/script.js"></script>
+
+		<script>
+			var wow = new WOW({
+				boxClass: 'wow', // animated element css class (default is wow)
+				animateClass: 'animated', // animation css class (default is animated)
+				offset: 0, // distance to the element when triggering the animation (default is 0)
+				mobile: true, // trigger animations on mobile devices (default is true)
+				live: true, // act on asynchronously loaded content (default is true)
+				callback: function (box) {
+					// the callback is fired every time an animation is started
+					// the argument that is passed in is the DOM node being animated
+				},
+				scrollContainer: null, // optional scroll container selector, otherwise use window,
+				resetAnimation: true, // reset animation on end (default is true)
+			});
+			wow.init();
+		</script>
 	</body>
 </html>
